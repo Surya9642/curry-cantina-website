@@ -51,9 +51,9 @@ const schema = z.object({
 });
 
 const openingHours = [
-  { day: "Monday – Thursday", time: "To be confirmed" },
-  { day: "Friday – Saturday", time: "To be confirmed" },
-  { day: "Sunday", time: "To be confirmed" },
+  { day: "Monday – Thursday", time: "11am – 10pm" },
+  { day: "Friday – Saturday", time: "11am – 11pm" },
+  { day: "Sunday", time: "11am – 10pm" },
 ];
 
 export default function Contact() {
@@ -219,7 +219,7 @@ export default function Contact() {
           {/* Instagram and Facebook icons */}
           <div className="mt-8 flex items-center gap-3">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/currycantinanj/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -249,7 +249,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/currycantina"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"

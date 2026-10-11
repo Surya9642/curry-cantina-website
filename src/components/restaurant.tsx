@@ -408,7 +408,7 @@ export function Footer() {
             </svg>
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=520+NJ-33%2C+Millstone+Township%2C+NJ+08535%2C+United+States"
+              href={restaurant.directionsUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -476,12 +476,12 @@ export function Footer() {
             </svg>
 
             <div className="min-w-0">
-              <p>Opening hours</p>
+              <h4>Opening hours</h4>
 
               <div className="mt-2 space-y-1 text-sm">
-                <p>Monday – Thursday: To be confirmed</p>
-                <p>Friday – Saturday: To be confirmed</p>
-                <p>Sunday: To be confirmed</p>
+                <p>Monday – Thursday: 11am – 10pm</p>
+                <p>Friday – Saturday: 11am – 11pm</p>
+                <p>Sunday: 11am – 10pm</p>
               </div>
             </div>
           </div>

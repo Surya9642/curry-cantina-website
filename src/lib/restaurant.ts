@@ -19,9 +19,9 @@ export const restaurant = {
   email: "",
   hours: "",
   mapsEmbedUrl: "",
-  directionsUrl: "",
-  instagramUrl: "",
-  facebookUrl: "",
+  directionsUrl: "https://maps.app.goo.gl/DyoSNKaoi8fL3txi7",
+  instagramUrl: "https://www.instagram.com/currycantinanj/",
+  facebookUrl: "https://www.facebook.com/currycantina",
 };
 
 export const ORDER_ONLINE_URL = restaurant.orderOnlineUrl;
