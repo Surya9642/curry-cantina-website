@@ -21,7 +21,7 @@ export default function About() {
 
       <section className="container about-editorial">
         <img
-          src={images.interior}
+          src={images.cantinaDiningTables}
           alt="Illustrative Curry Cantina dining room with warm lighting"
           width="1280"
           height="960"

@@ -25,7 +25,7 @@ export const restaurant = {
 };
 
 export const ORDER_ONLINE_URL = restaurant.orderOnlineUrl;
-export const images = { feast, interior, cocktails, quesadilla };
+export const images = { feast, interior, cocktails, quesadilla, cantinaBar, cantinaBarSeating, cantinaDiningRoom, cantinaDiningTables, cantinaLounge, cantinaMainFloor };
 
 export const categories = [
   "Soups - Indian",

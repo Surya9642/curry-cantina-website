@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import {
   ArrowUpRight,
@@ -107,7 +106,7 @@ export default function Home() {
       >
         <div className="welcome-photo">
           <img
-            src={images.interior}
+            src={images.cantinaDiningTables}
             alt="A warm, elegant cantina dining room"
             width="1280"
             height="960"
@@ -249,7 +248,7 @@ export default function Home() {
           />
 
           <img
-            src={images.interior}
+            src={images.cantinaBar}
             alt="Warm cantina atmosphere"
             width="1280"
             height="960"
