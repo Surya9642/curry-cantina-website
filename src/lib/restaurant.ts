@@ -110,7 +110,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/ac/7f/77/ac7f77edf59fc3ea12f8de7c67bcc5dd.jpg",
   },
   {
     name: "Tomato Cream Soup",
@@ -119,7 +119,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/3c/42/52/3c4252f63bad65494034659314654e35.jpg",
   },
   {
     name: "Red Fond Soup",
@@ -128,7 +128,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/17/92/65/1792657ef84cc3daa150ec3df8204882.jpg",
   },
   {
     name: "Green Garden Soup with Spinach",
@@ -137,7 +137,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/bc/34/15/bc3415d5048e702b96d5a4cbf583860d.jpg",
   },
   {
     name: "Veg Manchow Soup",
@@ -146,7 +146,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/36/b1/52/36b152c7e7410ab75f259c38c80aa954.jpg",
   },
   {
     name: "Chicken Manchow Soup",
@@ -155,7 +155,7 @@ export const dishes: Dish[] = [
     price: 12,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/ba/ed/e9/baede928926a187c3980364a47c2d9c6.jpg",
   },
 
   // ==================== SOUPS - MEXICAN ====================
@@ -259,7 +259,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/d6/95/b2/d695b278f3492a39144d999de3f45408.jpg",
   },
   {
     name: "Bharwa Mirchi Pakora",
@@ -268,7 +268,7 @@ export const dishes: Dish[] = [
     price: 13,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/da/1a/e3/da1ae31c4027c06cfe9637f4a583c941.jpg",
   },
   {
     name: "Aloo Tikki Chaat",
@@ -277,7 +277,7 @@ export const dishes: Dish[] = [
     price: 14,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/46/65/6f/46656f5b1edcd4920dfad64a8e5e0656.jpg",
   },
   {
     name: "Green Veg Cutlet",
@@ -286,7 +286,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/2a/81/2e/2a812ea9503f0f799d7c981d89091107.jpg",
   },
   {
     name: "Pani Poori",
@@ -295,7 +295,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/e2/c2/e3/e2c2e3c2d83ff82d4a067a9e6d1da1d2.jpg",
   },
   {
     name: "Paneer Pakora",
@@ -304,7 +304,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/29/34/af/2934afc3c8a68302bd04917a7f16525d.jpg",
   },
   {
     name: "Palak Pakora",
@@ -313,7 +313,7 @@ export const dishes: Dish[] = [
     price: 12,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/a9/df/26/a9df26ba5ec7e65e6266ccdcd3af9874.jpg",
   },
   {
     name: "Mix Veg Pakora",
@@ -322,7 +322,7 @@ export const dishes: Dish[] = [
     price: 12,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/c2/9e/e5/c29ee531e3ba4b5a757966e979a8fcdf.jpg",
   },
 
   // ==================== VEGETARIAN APPETIZERS - MEXICAN ====================
@@ -425,7 +425,7 @@ export const dishes: Dish[] = [
     price: 14,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/c4/59/fd/c459fd7df4de386919ed06c4e0f4c44d.jpg",
   },
   {
     name: "Bamboo Chicken",
@@ -434,7 +434,7 @@ export const dishes: Dish[] = [
     price: 14,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/4b/24/fe/4b24feff9ec8b4e99227f1598dfd7b90.jpg",
   },
 
   // ==================== SEAFOOD APPETIZERS ====================
@@ -446,7 +446,7 @@ export const dishes: Dish[] = [
     vegetarian: false,
     spice: 2,
     signature: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/12/7f/b5/127fb520fccf320347eba0814382fe37.jpg",
   },
   {
     name: "Amritsari Fish",
@@ -455,7 +455,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/d9/f8/41/d9f8419a94dbfb93f59ce973df43f79e.jpg",
   },
   {
     name: "Fish Tikka",
@@ -464,7 +464,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/ee/c9/8f/eec98fb63940ccc154e4f58cb72c0de6.jpg",
   },
   {
     name: "Shrimp Kerala",
@@ -473,7 +473,7 @@ export const dishes: Dish[] = [
     price: 22,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/f2/bd/99/f2bd99dbc8263042bad51b62b391efce.jpg",
   },
 
   // ==================== NON-VEGETARIAN APPETIZERS - MEXICAN ====================
@@ -595,7 +595,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/18/18/35/181835c239ca51735517b71284fca158.jpg",
   },
   {
     name: "Boti Kebab",
@@ -604,7 +604,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/bc/43/c7/bc43c7dac643f19adbff16b2fc5abb66.jpg",
   },
   {
     name: "Chicken Tikka Kebab",
@@ -613,7 +613,7 @@ export const dishes: Dish[] = [
     price: 19,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/96/9c/dc/969cdc9511c9feadce783434a666b92b.jpg",
   },
   {
     name: "Chicken Tikka (Almond)",
@@ -622,7 +622,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/ba/f2/7c/baf27ce62c39f05c5404a4d0004180dc.jpg",
   },
   {
     name: "Chicken Tandoori Leg",
@@ -631,7 +631,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/22/4d/11/224d1182d3a74abaca490655ce04d287.jpg",
   },
   {
     name: "Tandoori Khesari",
@@ -741,7 +741,7 @@ export const dishes: Dish[] = [
     price: 5,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/38/2c/ca/382ccadb06b651b9d2ddbf051a054d3a.jpg",
   },
   {
     name: "Malabar Parotta (2 Pcs)",
@@ -750,7 +750,7 @@ export const dishes: Dish[] = [
     price: 10,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/e9/00/d1/e900d11b424de980ddc9c8edbae31221.jpg",
   },
   {
     name: "Bullet Naan",
@@ -759,7 +759,7 @@ export const dishes: Dish[] = [
     price: 8,
     vegetarian: true,
     spice: 3,
-    image: "",
+    image: "https://i.pinimg.com/1200x/86/b5/72/86b572e714c7878d4554b48d22e625b4.jpg",
   },
   {
     name: "Chilli Cheese Garlic Naan",
@@ -768,7 +768,7 @@ export const dishes: Dish[] = [
     price: 7,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/02/09/53/0209539242efdb7b8debe39787be3a28.jpg",
   },
   {
     name: "Chilli Naan",
@@ -878,7 +878,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/42/a3/f6/42a3f689b0612b82f0805f0cf538149b.jpg",
   },
   {
     name: "Baingan Bharta",
@@ -887,7 +887,7 @@ export const dishes: Dish[] = [
     price: 19,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/8a/1b/75/8a1b75cc8e80d6b5b983cecbd1264260.jpg",
   },
   {
     name: "Dal Bukhara",
@@ -896,7 +896,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/84/4d/87/844d87d700d6c7dc5999d56549046051.jpg",
   },
   {
     name: "Channa Masala",
@@ -905,7 +905,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/26/4b/ad/264bad3e7e9ffe6599c6b35d5f55ded0.jpg",
   },
   {
     name: "Mushroom Malai",
@@ -923,7 +923,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/29/25/64/292564a54361017bac78d82683acf437.jpg",
   },
   {
     name: "Bombay Aloo",
@@ -932,7 +932,7 @@ export const dishes: Dish[] = [
     price: 16,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/45/3b/4a/453b4a827811cd04430e35061955a3f5.jpg",
   },
   {
     name: "Bhindi Masala",
@@ -941,7 +941,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/77/e8/70/77e870eefb74f8afb5c64ddf2acdc689.jpg",
   },
   {
     name: "Mixed Veg Korma",
@@ -950,7 +950,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/cb/d6/8f/cbd68fe4a59e797d393bf47ab9e3ccea.jpg",
   },
   {
     name: "Malai Kofta Rajasthani",
@@ -959,7 +959,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/d7/90/bb/d790bb3e6a424819f5944f1bdfa39c78.jpg",
   },
 
   // ==================== INDIAN ENTREES - NON-VEGETARIAN ====================
@@ -1197,7 +1197,7 @@ export const dishes: Dish[] = [
     price: 23,
     vegetarian: false,
     spice: 3,
-    image: "",
+    image: "https://i.pinimg.com/736x/8a/e9/54/8ae95488a7d64fb931829179e4d9d054.jpg",
   },
   {
     name: "Chettinad Chicken",
@@ -1206,7 +1206,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 3,
-    image: "",
+    image: "https://i.pinimg.com/1200x/2d/91/13/2d9113b94f0e87e3a40c2490c6f7a0f0.jpg",
   },
   {
     name: "Chicken Saag",
@@ -1215,7 +1215,7 @@ export const dishes: Dish[] = [
     price: 23,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/3f/98/11/3f98113eac297de1a67107b671639d00.jpg",
   },
   {
     name: "Pepper Chicken Curry",
@@ -1224,7 +1224,7 @@ export const dishes: Dish[] = [
     price: 23,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/78/4a/ae/784aae7e272d9c406a49e6afba48ada3.jpg",
   },
   {
     name: "Chicken Rogan Josh",
@@ -1233,7 +1233,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/e4/3b/ce/e43bce9e126fe9d9294bb5ac55d14533.jpg",
   },
   {
     name: "Murgh Mirch Curry (Extra Hot)",
@@ -1242,7 +1242,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 3,
-    image: "",
+    image: "https://i.pinimg.com/736x/92/c8/c5/92c8c51545629acb38bc611451211980.jpg",
   },
   {
     name: "Bhuna Gosht Goat (Chops)",
@@ -1252,7 +1252,7 @@ export const dishes: Dish[] = [
     vegetarian: false,
     spice: 2,
     signature: true,
-    image: "",
+    image: "https://i.pinimg.com/1200x/93/ae/8f/93ae8fc8de0a89eee28595bc5cefad7b.jpg",
   },
   {
     name: "Egg Bhurji",
@@ -1261,7 +1261,7 @@ export const dishes: Dish[] = [
     price: 14,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/0d/32/01/0d3201beeebf164726039df8cb077fce.jpg",
   },
   {
     name: "Egg Masala Curry",
@@ -1270,7 +1270,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/69/b5/89/69b589b6b3c902f62bf964b43c84e7eb.jpg",
   },
   {
     name: "Lamb Pasanda",
@@ -1279,7 +1279,7 @@ export const dishes: Dish[] = [
     price: 30,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/d1/9a/e8/d19ae8728cf2942ccd815ce418c0e541.jpg",
   },
   {
     name: "Lamb Rogan Gosht",
@@ -1288,7 +1288,7 @@ export const dishes: Dish[] = [
     price: 30,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/3d/fb/26/3dfb265e660371ee6c77de7dbbfe584c.jpg",
   },
   {
     name: "Lamb Vindaloo",
@@ -1297,7 +1297,7 @@ export const dishes: Dish[] = [
     price: 28,
     vegetarian: false,
     spice: 3,
-    image: "",
+    image: "https://i.pinimg.com/1200x/7d/23/0f/7d230fe35894c08957e16599e41e1334.jpg",
   },
 
   // ==================== MEXICAN ENTREES - VEGETARIAN ====================
@@ -1584,7 +1584,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/03/7d/19/037d19635fcd95a8937091825aabddea.jpg",
   },
   {
     name: "Chicken Alfredo",
@@ -1593,7 +1593,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/f4/22/bb/f422bb97649f1ae3922eb43b58ddf2e4.jpg",
   },
   {
     name: "Veal Marsala",
@@ -1602,7 +1602,7 @@ export const dishes: Dish[] = [
     price: 24,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/b4/73/b6/b473b692add360499d3354c40775f167.jpg",
   },
   {
     name: "Veal Francese (Frances)",
@@ -1611,7 +1611,7 @@ export const dishes: Dish[] = [
     price: 26,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/d8/c2/94/d8c29476d466cb6c4db8d6ce26c4a418.jpg",
   },
   {
     name: "Veal Alaska",
@@ -1629,7 +1629,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/2a/49/c3/2a49c3b3e36394a7aab34b233bc07bc4.jpg",
   },
   {
     name: "Chicken Marsala",
@@ -1638,7 +1638,7 @@ export const dishes: Dish[] = [
     price: 22,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/236x/c0/a1/0e/c0a10ebe48127e29b35864d0c40588d7.jpg",
   },
   {
     name: "Chicken & Shrimp Mascarpone",
@@ -1647,7 +1647,7 @@ export const dishes: Dish[] = [
     price: 25,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/38/6b/48/386b48b786fc92d6af0201acb0c1e088.jpg",
   },
 
   // ==================== INDO-CHINESE ====================
@@ -1667,7 +1667,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/b9/ff/32/b9ff32c78f37aae474dded1be3d48d45.jpg",
   },
   {
     name: "Veg Manchurian Dry",
@@ -1676,7 +1676,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/d2/26/09/d22609efc42984ac31068cafc8f9427b.jpg",
   },
   {
     name: "Veg Manchurian Gravy",
@@ -1685,7 +1685,7 @@ export const dishes: Dish[] = [
     price: 18,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/c9/c7/ba/c9c7ba331f1d8fcec9d1e0e7e226b5a8.jpg",
   },
   {
     name: "Gobi Manchurian Dry",
@@ -1694,7 +1694,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/46/62/89/466289d56ef1ff056349c97f3bd0eed6.jpg",
   },
   {
     name: "Gobi Manchurian Gravy",
@@ -1703,7 +1703,7 @@ export const dishes: Dish[] = [
     price: 16,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/f6/e8/06/f6e8068bc034372fcfb91088fe13d874.jpg",
   },
   {
     name: "Egg Hakka Noodles",
@@ -1712,7 +1712,7 @@ export const dishes: Dish[] = [
     price: 15,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/23/1a/22/231a22d3cbac65770aadcef96203c948.jpg",
   },
   {
     name: "Egg Fried Rice",
@@ -1721,7 +1721,7 @@ export const dishes: Dish[] = [
     price: 14,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/8d/87/05/8d8705cb822ece67523cec23fe3ab454.jpg",
   },
   {
     name: "Chilli Chicken Dry",
@@ -1748,7 +1748,7 @@ export const dishes: Dish[] = [
     price: 21,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/5b/2c/7b/5b2c7b1d87a785feecbccf6f0c9eb0d7.jpg",
   },
   {
     name: "Chicken Hakka Noodles",
@@ -1757,7 +1757,7 @@ export const dishes: Dish[] = [
     price: 17,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/75/ea/f2/75eaf25aa6213f7afd5a127e8875cafd.jpg",
   },
   {
     name: "Chicken Fried Rice",
@@ -1766,7 +1766,7 @@ export const dishes: Dish[] = [
     price: 17,
     vegetarian: false,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/736x/6a/45/93/6a4593f2445cdc13cb041578b390aee6.jpg",
   },
   {
     name: "Tom Pan",
@@ -1822,7 +1822,7 @@ export const dishes: Dish[] = [
     price: 12,
     vegetarian: true,
     spice: 1,
-    image: "",
+    image: "https://i.pinimg.com/1200x/35/27/43/352743384c64f4860610bdbad904bfa6.jpg",
   },
   {
     name: "Peas Pulao",
@@ -1831,7 +1831,7 @@ export const dishes: Dish[] = [
     price: 12,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/1200x/a9/a5/9f/a9a59fbbdec82ab4ca9002175b567416.jpg",
   },
 
   // ==================== BIRYANI ====================
@@ -1842,7 +1842,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: true,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/e7/5c/c8/e75cc8f04266ed0af790f452d9275375.jpg",
   },
   {
     name: "Tiranga Veg Biryani",
@@ -1888,7 +1888,7 @@ export const dishes: Dish[] = [
     vegetarian: false,
     spice: 2,
     signature: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/41/c3/0f/41c30fe89e05bac5e55be453efc66c56.jpg",
   },
   {
     name: "Shahi Lamb Biryani",
@@ -1906,7 +1906,7 @@ export const dishes: Dish[] = [
     price: 22,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/db/2b/e0/db2be0683f97128e0d0b88fc5f30bfb4.jpg",
   },
   {
     name: "Egg Biryani",
@@ -1915,7 +1915,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/26/25/a5/2625a55eddd1d2987ed2af67819ebcfa.jpg",
   },
   {
     name: "Goat Biryani",
@@ -1924,7 +1924,7 @@ export const dishes: Dish[] = [
     price: 26,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/05/0a/94/050a94b63f4516e3594446c094910627.jpg",
   },
   {
     name: "Lamb Biryani",
@@ -1933,7 +1933,7 @@ export const dishes: Dish[] = [
     price: 26,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/736x/82/09/56/820956674034206c26b4a1d26f9cc6ee.jpg",
   },
   {
     name: "Lamb Chop Biryani",
@@ -1942,7 +1942,7 @@ export const dishes: Dish[] = [
     price: 26,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/a5/cc/33/a5cc3320166d0ca341348720d073f447.jpg",
   },
   {
     name: "Lamb Shank Biryani",
@@ -1951,7 +1951,7 @@ export const dishes: Dish[] = [
     price: 26,
     vegetarian: false,
     spice: 2,
-    image: "",
+    image: "https://i.pinimg.com/1200x/a7/36/8b/a7368b5081597d8080a53e7ca7f76f42.jpg",
   },
 
   // ==================== SALADS ====================
@@ -1962,7 +1962,7 @@ export const dishes: Dish[] = [
     price: 20,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/ce/2d/e8/ce2de88a9d873699c3bd13369e1be6ca.jpg",
   },
   {
     name: "Chicken Cold Salad",
@@ -1971,7 +1971,7 @@ export const dishes: Dish[] = [
     price: 17,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/77/4f/b8/774fb8e97deceed955bbbccb26d45100.jpg",
   },
   {
     name: "Beef Cold Salad",
@@ -1980,7 +1980,7 @@ export const dishes: Dish[] = [
     price: 13,
     vegetarian: false,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/d5/21/12/d521127afced6ec66a0a6813cd046b5f.jpg",
   },
 
   // ==================== KIDS MENU ====================
@@ -2030,7 +2030,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/15/10/38/15103878a3a0d7d54914b289bec19455.jpg",
   },
   {
     name: "Mango Mojito",
@@ -2040,7 +2040,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/e6/f7/44/e6f7442f2726f915ec12273730383726.jpg",
   },
   {
     name: "Watermelon Mojito",
@@ -2050,7 +2050,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/97/21/33/97213379f218e3441eff628520590172.jpg",
   },
   {
     name: "Lime Mojito",
@@ -2060,7 +2060,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/236x/89/ce/93/89ce937e8c47451832c1382c2092ca65.jpg",
   },
   {
     name: "Cucumber Mojito",
@@ -2070,7 +2070,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/1200x/70/42/1b/70421ba6642227eb720cd3d2c70b28a1.jpg",
   },
   {
     name: "Lemonade",
@@ -2080,7 +2080,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/d7/e1/86/d7e186bc83bb78eedde73d931460ec39.jpg",
   },
   {
     name: "Piña Colada Virgin Mojito",
@@ -2090,7 +2090,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/1200x/b4/19/fc/b419fcc1b010010a0c3afc09d7e354ff.jpg",
   },
   {
     name: "Pina Playa (Pineapple Punch)",
@@ -2100,7 +2100,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/b7/77/a2/b777a2f80a97fbe63f037cc27596e3ba.jpg",
   },
   {
     name: "Orange Sunrise",
@@ -2110,7 +2110,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/bb/d3/cc/bbd3cc3b484b98e6208b9f6cd05e3584.jpg",
   },
   {
     name: "Blue Glacier",
@@ -2120,7 +2120,7 @@ export const dishes: Dish[] = [
     vegetarian: true,
     spice: 0,
     mocktailAvailable: true,
-    image: "",
+    image: "https://i.pinimg.com/1200x/1f/36/f8/1f36f81e85874251163f58215d110d88.jpg",
   },
 
   // ==================== LASSI ====================
@@ -2131,7 +2131,7 @@ export const dishes: Dish[] = [
     price: 11,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/63/f9/f4/63f9f4d04a25f3fc33b6571bb3a3f5b8.jpg",
   },
   {
     name: "Mango Lassi",
@@ -2140,7 +2140,7 @@ export const dishes: Dish[] = [
     price: 7,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/3f/c1/e4/3fc1e44b968e58e5c17d6888074a65a9.jpg",
   },
   {
     name: "Sweet Lassi",
@@ -2149,7 +2149,7 @@ export const dishes: Dish[] = [
     price: 7,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/4e/98/6b/4e986bc30b7f037d12c74e29decd8c48.jpg",
   },
   {
     name: "Salt Lassi",
@@ -2158,7 +2158,7 @@ export const dishes: Dish[] = [
     price: 7,
     vegetarian: true,
     spice: 0,
-    image: "",
+    image: "https://i.pinimg.com/736x/32/4c/0d/324c0d70de827040f2e8fde0591a6c18.jpg",
   },
 
   // ==================== SIGNATURE COCKTAILS ====================
@@ -2384,7 +2384,7 @@ export const dishes: Dish[] = [
     category: "Beer & Wine",
     price: 8,
     vegetarian: true,
-    image: "",
+    image: "https://i.pinimg.com/1200x/a7/32/66/a732661dfe51ddf2f51f9ffcdf6636e9.jpg",
   },
   {
     name: "Kingfisher",
@@ -2392,7 +2392,7 @@ export const dishes: Dish[] = [
     category: "Beer & Wine",
     price: 7,
     vegetarian: true,
-    image: "",
+    image: "https://i.pinimg.com/736x/2c/64/9d/2c649d77709ed1a5efe353102ac8cc21.jpg",
   },
   {
     name: "All Other Beers (Corona / Modelo)",

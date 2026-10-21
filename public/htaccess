@@ -1,0 +1,22 @@
+# Curry Cantina — Apache configuration for a Vite React SPA
+# Place this file in the site's public_html directory (or document root).
+# Confirm mod_rewrite is enabled on your Apache hosting.
+
+Options -MultiViews
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://currycantinanj.com%{REQUEST_URI} [R=301,L]
+
+# Redirect www to the preferred non-www domain
+RewriteCond %{HTTP_HOST} ^www\.currycantinanj\.com$ [NC]
+RewriteRule ^ https://currycantinanj.com%{REQUEST_URI} [R=301,L]
+
+# Serve existing files and directories directly (including assets and sitemap.xml)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# React Router: send app routes to Vite's built index.html
+RewriteRule ^ index.html [L]
