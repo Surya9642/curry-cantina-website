@@ -29,8 +29,10 @@ const navigation = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/menu", label: "Menu" },
+   { to: "/catering", label: "Catering" },
   { to: "/gallery", label: "Gallery" },
   { to: "/contact", label: "Contact" },
+
 ] as const;
 
 export function OrderButton({ className = "" }: { className?: string }) {

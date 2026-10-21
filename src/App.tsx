@@ -7,6 +7,7 @@ import About from "./pages/about";
 import Menu from "./pages/menu";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
+import Catering from "./pages/Catering";
 
 import "./styles.css";
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/menu" element={<Menu />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/catering" element={<Catering />} />
           </Routes>
         </main>
 
