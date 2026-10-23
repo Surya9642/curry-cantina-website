@@ -1,4 +1,3 @@
-
 import { useState, type FormEvent } from "react";
 import { z } from "zod";
 import {
@@ -59,11 +58,15 @@ const openingHours = [
 export default function Contact() {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const form = event.currentTarget;
+
+    if (isSubmitting) return;
+
     const result = schema.safeParse(
       Object.fromEntries(new FormData(form)),
     );
@@ -82,9 +85,54 @@ export default function Contact() {
     }
 
     setErrors({});
-    setStatus(
-      "Your details are valid, but online enquiries are not connected yet. Please contact us by phone or email.",
-    );
+    setIsSubmitting(true);
+    setStatus("Sending your message...");
+
+    try {
+      const response = await fetch(
+        "https://currycantinanj.com/send-contact.php",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(result.data),
+        },
+      );
+
+      const responseText = await response.text();
+
+      let data: { status?: string; message?: string };
+      try {
+        data = JSON.parse(responseText);
+      } catch {
+        throw new Error(
+          "The server returned an invalid response. Please try again.",
+        );
+      }
+
+      if (!response.ok || data.status !== "success") {
+        throw new Error(
+          data.message || "Unable to send your message.",
+        );
+      }
+
+      setStatus(
+        "Thank you for contacting Curry Cantina! Your message has been sent successfully.",
+      );
+
+      form.reset();
+    } catch (error) {
+      console.error("Contact form submission failed:", error);
+
+      setStatus(
+        error instanceof Error && error.message
+          ? error.message
+          : "We couldn't send your message. Please try again or contact us by phone.",
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   const fields = [
@@ -284,8 +332,7 @@ export default function Contact() {
           <h3 className="mt-3">A note to the cantina</h3>
 
           <p className="sample-note mt-3">
-            For immediate assistance, please call or email us directly.
-            Online enquiries are not connected yet.
+            Send us a message and our team will get back to you shortly.
           </p>
 
           {fields.map((field) => (
@@ -339,9 +386,13 @@ export default function Contact() {
           </div>
 
           <div className="mt-6">
-            <Button className="gold-button" type="submit">
-              Send Enquiry
-              <ArrowUpRight size={18} />
+            <Button
+              className="gold-button"
+              type="submit"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Sending..." : "Send Enquiry"}
+              {!isSubmitting && <ArrowUpRight size={18} />}
             </Button>
           </div>
 
